@@ -14,15 +14,9 @@ npm i -g node-changer
 ## Usage:
 
 ```
-Choose your version: enter your version
-``
-
-for example:
-
+node-changer
 ```
 
-Choose your version: 18
-
-```
-
-```
+<p align="center">
+  <img src="https://github.com/hungdev/node-changer/blob/master/assets/demo.png?raw=true" />
+</p>
