@@ -1,0 +1,38 @@
+{
+  "name": "node-changer",
+  "type": "module",
+  "version": "0.0.4",
+  "description": "Switch node version based on Fast Node Manager (fnm)",
+  "main": "bin/index.js",
+  "bin": {
+    "node-changer": "./bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungdev/node-changer.git"
+  },
+  "keywords": [
+    "node",
+    "changer"
+  ],
+  "author": "hung vu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungdev/node-changer/issues"
+  },
+  "homepage": "https://github.com/hungdev/node-changer#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.12"
+  }
+}
